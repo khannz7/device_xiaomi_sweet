@@ -16,10 +16,6 @@
     <!-- Whether to use the mask for the quicksettings icons -->
     <bool name="config_useMaskForQs">true</bool>
 
-    <!-- Burn-in protection -->
-    <bool name="config_statusBarBurnInProtection">true</bool>
-    <integer name="config_shift_interval">40</integer>
-
     <!-- The CPU temperature sensor path, defaults to empty -->
     <string name="config_cpuTempSensor" translatable="false">/sys/class/thermal/thermal_zone0/temp</string>
 
