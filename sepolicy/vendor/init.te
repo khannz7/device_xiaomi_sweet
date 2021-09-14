@@ -1,4 +1,1 @@
 allow init sysfs_dm:file setattr;
-
-# Smart charging
-allow init vendor_sysfs_battery_supply:file { setattr };
